@@ -1,0 +1,25 @@
+apiVersion: v1
+entries:
+  main:
+  - apiVersion: v2
+    appVersion: dev
+    created: "2026-01-14T12:54:54.048096962+03:00"
+    description: Базовый чарт для приложений (тестовый)
+    digest: 0c0484c9b86a1b8ecb8aaf45d58099d30d04dd200fb95e0de2f14a6277541da1
+    name: main
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/PonamaryovMV/helm-base-charts/main/main-0.0.7.tgz
+    version: 0.0.7
+  redis:
+  - apiVersion: v2
+    appVersion: dev
+    created: "2026-01-14T12:54:54.048330167+03:00"
+    description: Тестовый redis чарт
+    digest: 6e0a6201b55528891f7f97742d2832bb4d65972bf2dc036e9b330f9e0d0b7c10
+    name: redis
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/PonamaryovMV/helm-base-charts/main/redis-0.0.0-dev.tgz
+    version: 0.0.0-dev
+generated: "2026-01-14T12:54:54.047691362+03:00"
